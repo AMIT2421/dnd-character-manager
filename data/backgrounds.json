@@ -1,0 +1,21 @@
+{
+    "acolyte": {
+        "name": "Acolyte",
+        "ability_scores": ["INT", "WIS", "CHA"],
+        "skillProficiencies": ["Insight", "Religion"]
+    },
+    "artisan": {
+        "name": "Artisan",
+        "ability_scores": ["STR", "DEX", "INT"],
+        "skillProficiencies": ["Insight", "Persuasion"]
+    },
+    "charlatan": {
+        "name": "Charlatan",
+        "ability_scores": ["DEX", "CON", "CHA"],
+        "skillProficiencies": ["Deception", "Sleight of Hand"]
+    },
+    "criminal": {
+        "name": "Criminal",
+        "skillProficiencies": ["Deception", "Stealth"]
+    }
+}

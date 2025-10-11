@@ -1,0 +1,182 @@
+{
+    "dragonborn": {
+        "name": "Dragonborn",
+        "subraces": ["Black", "Blue", "Brass", "Bronze", "Copper", "Gold", "Green", "Red", "Silver", "White"],
+        "ability_bonuses": [
+            {
+                "ability_score": "STR",
+                "bonus": 2
+            },
+            {
+                "ability_score": "CHA",
+                "bonus": 1
+            }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "languages": [
+            "Common",
+            "Draconic"
+        ]
+    },
+    "dwarf": {
+        "name": "Dwarf",
+        "subraces": ["Hill Dwarf", "Mountain Dwarf"],
+        "ability_bonuses": [
+            {
+                "ability_score": "CON",
+                "bonus": 2
+            }
+        ],
+        "size": "Medium",
+        "speed": 25,
+        "languages": [
+            "Common",
+            "Dwarvish"
+        ]
+    },
+    "elf": {
+        "name": "Elf",
+        "subraces": ["High Elf", "Wood Elf", "Dark Elf"],
+        "ability_bonuses": [
+            {
+                "ability_score": "DEX",
+                "bonus": 2
+            }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "languages": [
+            "Common",
+            "Elvish"
+        ]
+    },
+    "gnome": {
+        "name": "Gnome",
+        "subraces": ["Forest Gnome", "Rock Gnome"],
+        "ability_bonuses": [
+            {
+                "ability_score": "INT",
+                "bonus": 2
+            }
+        ],
+        "size": "Small",
+        "speed": 25,
+        "languages": [
+            "Common",
+            "Gnomish"
+        ]
+    },
+    "half-elf": {
+        "name": "Half-Elf",
+        "ability_bonuses": [
+            {
+                "ability_score": "CHA",
+                "bonus": 2
+            },
+            {
+                "ability_score": "ANY",
+                "bonus": 1
+            },
+            {
+                "ability_score": "ANY",
+                "bonus": 1
+            }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "languages": [
+            "Common",
+            "Elvish"
+        ]
+    },
+    "half-orc": {
+        "name": "Half-Orc",
+        "ability_bonuses": [
+            {
+                "ability_score": "STR",
+                "bonus": 2
+            },
+            {
+                "ability_score": "CON",
+                "bonus": 1
+            }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "languages": [
+            "Common",
+            "Orc"
+        ]
+    },
+    "halfling": {
+        "name": "Halfling",
+        "subraces": ["Lightfoot", "Stout"],
+        "ability_bonuses": [
+            {
+                "ability_score": "DEX",
+                "bonus": 2
+            }
+        ],
+        "size": "Small",
+        "speed": 25,
+        "languages": [
+            "Common",
+            "Halfling"
+        ]
+    },
+    "human": {
+        "name": "Human",
+        "ability_bonuses": [
+            {
+                "ability_score": "STR",
+                "bonus": 1
+            },
+            {
+                "ability_score": "DEX",
+                "bonus": 1
+            },
+            {
+                "ability_score": "CON",
+                "bonus": 1
+            },
+            {
+                "ability_score": "INT",
+                "bonus": 1
+            },
+            {
+                "ability_score": "WIS",
+                "bonus": 1
+            },
+            {
+                "ability_score": "CHA",
+                "bonus": 1
+            }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "languages": [
+            "Common",
+            "ANY"
+        ]
+    },
+    "tiefling": {
+        "name": "Tiefling",
+        "ability_bonuses": [
+            {
+                "ability_score": "CHA",
+                "bonus": 2
+            },
+            {
+                "ability_score": "INT",
+                "bonus": 1
+            }
+        ],
+        "size": "Medium",
+        "speed": 30,
+        "languages": [
+            "Common",
+            "Infernal"
+        ]
+    }
+}

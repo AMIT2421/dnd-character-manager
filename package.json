@@ -1,0 +1,19 @@
+{
+  "name": "dnd-character-manager",
+  "version": "1.0.0",
+  "description": "A D&D character manager web app",
+  "main": "index.js",
+  "dependencies": {
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "tsc --watch",
+    "serve": "live-server",
+    "dev": "run-p build serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMIT2421/dnd-character-manager.git"
+  },
+  "license": "ISC"
+}

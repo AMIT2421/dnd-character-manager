@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    /* File structure */
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    /* Output format for browsers */
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "bundler",
+    "lib": ["dom", "esnext"],
+    "types": [],
+
+    /* Debugging */
+    "sourceMap": true,
+
+    /* Strict type checking */
+    "strict": true,
+
+    /* Clean-up */
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}

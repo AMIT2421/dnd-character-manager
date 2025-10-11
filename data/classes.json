@@ -1,0 +1,46 @@
+{
+    "wizard": {
+        "name": "Wizard",
+        "subclasses": [
+            "School of Abjuration",
+            "School of Conjuration",
+            "School of Divination",
+            "School of Enchantment",
+            "School of Evocation",
+            "School of Illusion",
+            "School of Necromancy",
+            "School of Transmutation"
+        ],
+        "hit_die": 6,
+        "primary_ability": "INT",
+        "multiclassing": {
+            "requirements": {
+                "INT": 13
+            }
+        },
+        "proficiencies": {
+            "armor": [],
+            "weapons": [
+                "Daggers",
+                "Darts",
+                "Slings",
+                "Quarterstaffs",
+                "Light Crossbows"
+            ],
+            "tools": [],
+            "saving_throws": [
+                "INT",
+                "WIS"
+            ],
+            "skills": [
+                "Arcana",
+                "History",
+                "Insight",
+                "Investigation",
+                "Medicine",
+                "Religion"
+            ],
+            "skill_choices": 2
+        }
+    }
+}
