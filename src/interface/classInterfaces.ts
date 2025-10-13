@@ -1,8 +1,8 @@
-export interface ClassData {
+export interface Class {
     name: string;
-    subclasses: string[];
-    hitDie: number;
-    proficiencies: ClassProficiencies;
+    subclasses: Subclass[];
+    //hitDie: number;
+    //proficiencies: ClassProficiencies;
 }
 
 export interface ClassProficiencies {
@@ -15,5 +15,9 @@ export interface ClassProficiencies {
 }
 
 export interface Classes {
-    [key: string]: ClassData;
+    [key: string]: Class;
+}
+
+export interface Subclass {
+    name: string;
 }

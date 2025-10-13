@@ -1,182 +1,58 @@
 {
     "dragonborn": {
         "name": "Dragonborn",
-        "subraces": ["Black", "Blue", "Brass", "Bronze", "Copper", "Gold", "Green", "Red", "Silver", "White"],
-        "ability_bonuses": [
-            {
-                "ability_score": "STR",
-                "bonus": 2
-            },
-            {
-                "ability_score": "CHA",
-                "bonus": 1
-            }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "languages": [
-            "Common",
-            "Draconic"
+        "subraces": [
+            "Black",
+            "Blue",
+            "Brass",
+            "Bronze",
+            "Copper",
+            "Gold",
+            "Green",
+            "Red",
+            "Silver",
+            "White"
         ]
     },
     "dwarf": {
         "name": "Dwarf",
-        "subraces": ["Hill Dwarf", "Mountain Dwarf"],
-        "ability_bonuses": [
-            {
-                "ability_score": "CON",
-                "bonus": 2
-            }
-        ],
-        "size": "Medium",
-        "speed": 25,
-        "languages": [
-            "Common",
-            "Dwarvish"
+        "subraces": [
+            "Hill Dwarf",
+            "Mountain Dwarf"
         ]
     },
     "elf": {
         "name": "Elf",
-        "subraces": ["High Elf", "Wood Elf", "Dark Elf"],
-        "ability_bonuses": [
-            {
-                "ability_score": "DEX",
-                "bonus": 2
-            }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "languages": [
-            "Common",
-            "Elvish"
+        "subraces": [
+            "High Elf",
+            "Wood Elf",
+            "Dark Elf"
         ]
     },
     "gnome": {
         "name": "Gnome",
-        "subraces": ["Forest Gnome", "Rock Gnome"],
-        "ability_bonuses": [
-            {
-                "ability_score": "INT",
-                "bonus": 2
-            }
-        ],
-        "size": "Small",
-        "speed": 25,
-        "languages": [
-            "Common",
-            "Gnomish"
+        "subraces": [
+            "Forest Gnome",
+            "Rock Gnome"
         ]
     },
     "half-elf": {
-        "name": "Half-Elf",
-        "ability_bonuses": [
-            {
-                "ability_score": "CHA",
-                "bonus": 2
-            },
-            {
-                "ability_score": "ANY",
-                "bonus": 1
-            },
-            {
-                "ability_score": "ANY",
-                "bonus": 1
-            }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "languages": [
-            "Common",
-            "Elvish"
-        ]
+        "name": "Half-Elf"
     },
     "half-orc": {
-        "name": "Half-Orc",
-        "ability_bonuses": [
-            {
-                "ability_score": "STR",
-                "bonus": 2
-            },
-            {
-                "ability_score": "CON",
-                "bonus": 1
-            }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "languages": [
-            "Common",
-            "Orc"
-        ]
+        "name": "Half-Orc"
     },
     "halfling": {
         "name": "Halfling",
-        "subraces": ["Lightfoot", "Stout"],
-        "ability_bonuses": [
-            {
-                "ability_score": "DEX",
-                "bonus": 2
-            }
-        ],
-        "size": "Small",
-        "speed": 25,
-        "languages": [
-            "Common",
-            "Halfling"
+        "subraces": [
+            "Lightfoot",
+            "Stout"
         ]
     },
     "human": {
-        "name": "Human",
-        "ability_bonuses": [
-            {
-                "ability_score": "STR",
-                "bonus": 1
-            },
-            {
-                "ability_score": "DEX",
-                "bonus": 1
-            },
-            {
-                "ability_score": "CON",
-                "bonus": 1
-            },
-            {
-                "ability_score": "INT",
-                "bonus": 1
-            },
-            {
-                "ability_score": "WIS",
-                "bonus": 1
-            },
-            {
-                "ability_score": "CHA",
-                "bonus": 1
-            }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "languages": [
-            "Common",
-            "ANY"
-        ]
+        "name": "Human"
     },
     "tiefling": {
-        "name": "Tiefling",
-        "ability_bonuses": [
-            {
-                "ability_score": "CHA",
-                "bonus": 2
-            },
-            {
-                "ability_score": "INT",
-                "bonus": 1
-            }
-        ],
-        "size": "Medium",
-        "speed": 30,
-        "languages": [
-            "Common",
-            "Infernal"
-        ]
+        "name": "Tiefling"
     }
 }

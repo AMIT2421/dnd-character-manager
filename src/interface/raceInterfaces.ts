@@ -1,10 +1,10 @@
-export interface RaceData {
+export interface Race {
     name: string;
     subraces?: string[];
-    abilityBonuses: AbilityBonus[];
-    size: string;
-    speed: number;
-    languages: string[];
+    // abilityBonuses: AbilityBonus[];
+    // size: string;
+    // speed: number;
+    // languages: string[];
 }
 
 export interface AbilityBonus {
@@ -13,5 +13,9 @@ export interface AbilityBonus {
 }
 
 export interface Races {
-    [key: string]: RaceData;
+    [key: string]: Race;
+}
+
+export interface Subrace {
+    name: string;
 }

@@ -8,12 +8,34 @@
 <body>
     <div id="main">
         <div class="character-creation">
-            <label for="name">NAME: </label>
-            <input id="name" placeholder="Character Name" />
-            <label for="race">RACE: </label>
-            <select id="race">
-            </select>
-            <select id="subrace" hidden></select>
+            <div>
+                <label for="name">NAME: </label>
+                <input id="name" placeholder="Character Name" />
+                <label for="race">RACE: </label>
+                <select id="race"></select>
+                <select id="subrace" hidden></select>
+                <label for="class">CLASS: </label>
+                <select id="class"></select>
+                <div>
+                    <button id="save">SAVE</button>
+                    <button id="delete">DELETE</button>
+                </div>
+            </div>
+            <div>
+                <label for="strength">STRENGTH</label>
+                <select id="strength" class="ability-select"></select>
+                <label for="dexterity">DEXTERITY</label>
+                <select id="dexterity" class="ability-select"></select>
+                <label for="constitution">CONSTITUTION</label>
+                <select id="constitution" class="ability-select"></select>
+                <label for="intelligence">INTELLIGENCE</label>
+                <select id="intelligence" class="ability-select"></select>
+                <label for="wisdom">WISDOM</label>
+                <select id="wisdom" class="ability-select"></select>
+                <label for="charisma">CHARISMA</label>
+                <select id="charisma" class="ability-select"></select>
+                <button id="reset">RESET</button>
+            </div>
         </div>
     </div>
     <script type="module" src="dist/main.js"></script>
