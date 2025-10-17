@@ -1,43 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <div id="main">
         <div class="character-creation">
-            <div>
+            <div style="display: grid; grid-template-columns: 2; grid-template-rows: 3;">
                 <label for="name">NAME: </label>
-                <input id="name" placeholder="Character Name" />
-                <label for="race">RACE: </label>
-                <select id="race"></select>
-                <select id="subrace" hidden></select>
-                <label for="class">CLASS: </label>
-                <select id="class"></select>
                 <div>
-                    <button id="save">SAVE</button>
-                    <button id="delete">DELETE</button>
+                    <input id="name" placeholder="Character Name" />
+                </div>
+                <label for="race">RACE: </label>
+                <div>
+                    <select id="race"></select>
+                    <select id="subrace" hidden></select>
+                    <div id="abilityScoreChoice">
+                    </div>
+                </div>
+                <label for="class">CLASS: </label>
+                <div>
+                    <select id="class"></select>
                 </div>
             </div>
+        </div>
+        <div>
+            <button id="rollManually">ROLL MANUALLY</button>
+            <button id="rollAutomatically">ROLL AUTOMATICALLY</button>
+        </div>
+        <div>
+            <input placeholder="10, 11, 13, 14, 16, 17" id="rollInput" hidden>
+            <button id="rollSave" hidden>SAVE</button>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(4, auto); grid-template-rows: 3; width: fit-content; gap: 8px;">
+            <label for="strengthBase">STRENGTH</label>
+            <div id="strength" class="ability-score"></div>
             <div>
-                <label for="strength">STRENGTH</label>
-                <select id="strength" class="ability-select"></select>
-                <label for="dexterity">DEXTERITY</label>
-                <select id="dexterity" class="ability-select"></select>
-                <label for="constitution">CONSTITUTION</label>
-                <select id="constitution" class="ability-select"></select>
-                <label for="intelligence">INTELLIGENCE</label>
-                <select id="intelligence" class="ability-select"></select>
-                <label for="wisdom">WISDOM</label>
-                <select id="wisdom" class="ability-select"></select>
-                <label for="charisma">CHARISMA</label>
-                <select id="charisma" class="ability-select"></select>
-                <button id="reset">RESET</button>
+                <select id="strengthBase" class="ability-select"></select>
             </div>
+            <div id="strengthModifier" class="ability-modifier">+0</div>
+            <label for="dexterityBase">DEXTERITY</label>
+            <div id="dexterity" class="ability-score"></div>
+            <div>
+                <select id="dexterityBase" class="ability-select"></select>
+            </div>
+            <div id="dexterityModifier" class="ability-modifier">+0</div>
+            <label for="constitutionBase">CONSTITUTION</label>
+            <div id="constitution" class="ability-score"></div>
+            <div>
+                <select id="constitutionBase" class="ability-select"></select>
+            </div>
+            <div id="constitutionModifier" class="ability-modifier">+0</div>
+            <label for="intelligenceBase">INTELLIGENCE</label>
+            <div id="intelligence" class="ability-score"></div>
+            <div>
+                <select id="intelligenceBase" class="ability-select"></select>
+            </div>
+            <div id="intelligenceModifier" class="ability-modifier">+0</div>
+            <label for="wisdomBase">WISDOM</label>
+            <div id="wisdom" class="ability-score"></div>
+            <div>
+                <select id="wisdomBase" class="ability-select"></select>
+            </div>
+            <div id="wisdomModifier" class="ability-modifier">+0</div>
+            <label for="charismaBase">CHARISMA</label>
+            <div id="charisma" class="ability-score"></div>
+            <div>
+                <select id="charismaBase" class="ability-select"></select>
+            </div>
+            <div id="charismaModifier" class="ability-modifier">+0</div>
+        </div>
+        <div>
+            <button id="save">SAVE</button>
+            <button id="delete">DELETE</button>
         </div>
     </div>
     <script type="module" src="dist/main.js"></script>
 </body>
+
 </html>

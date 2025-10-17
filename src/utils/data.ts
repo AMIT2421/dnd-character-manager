@@ -1,4 +1,4 @@
-import { Races } from "../interface/raceInterfaces.js";
+import { Races} from "../interface/raceInterfaces.js";
 import { Classes } from "../interface/classInterfaces.js";
 import { Character } from "../interface/characterInterface.js";
 

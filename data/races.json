@@ -1,56 +1,173 @@
 {
-    "dragonborn": {
-        "name": "Dragonborn",
-        "subraces": [
-            "Black",
-            "Blue",
-            "Brass",
-            "Bronze",
-            "Copper",
-            "Gold",
-            "Green",
-            "Red",
-            "Silver",
-            "White"
-        ]
-    },
     "dwarf": {
         "name": "Dwarf",
-        "subraces": [
-            "Hill Dwarf",
-            "Mountain Dwarf"
-        ]
+        "subraces": {
+            "hillDwarf": {
+                "name": "Hill Dwarf",
+                "abilityScoreIncrease": {
+                    "wisdom": 1
+                }
+            },
+            "mountainDwarf": {
+                "name": "Mountain Dwarf",
+                "abilityScoreIncrease": {
+                    "strength": 2
+                }
+            }
+        },
+        "abilityScoreIncrease": {
+            "constitution": 2
+        }
     },
     "elf": {
         "name": "Elf",
-        "subraces": [
-            "High Elf",
-            "Wood Elf",
-            "Dark Elf"
-        ]
-    },
-    "gnome": {
-        "name": "Gnome",
-        "subraces": [
-            "Forest Gnome",
-            "Rock Gnome"
-        ]
-    },
-    "half-elf": {
-        "name": "Half-Elf"
-    },
-    "half-orc": {
-        "name": "Half-Orc"
+        "subraces": {
+            "highElf": {
+                "name": "High Elf",
+                "abilityScoreIncrease": {
+                    "intelligence": 1
+                }
+            },
+            "woodElf": {
+                "name": "Wood Elf",
+                "abilityScoreIncrease": {
+                    "wisdom": 1
+                }
+            },
+            "darkElf": {
+                "name": "Dark Elf (Drow)",
+                "abilityScoreIncrease": {
+                    "charisma": 1
+                }
+            }
+        },
+        "abilityScoreIncrease": {
+            "dexterity": 2
+        }
     },
     "halfling": {
         "name": "Halfling",
-        "subraces": [
-            "Lightfoot",
-            "Stout"
-        ]
+        "subraces": {
+            "ligthfoot": {
+                "name": "Lightfoot Halfling",
+                "abilityScoreIncrease": {
+                    "charisma": 1
+                }
+            },
+            "stout": {
+                "name": "Stout Halfling",
+                "abilityScoreIncrease": {
+                    "constitution": 1
+                }
+            }
+        },
+        "abilityScoreIncrease": {
+            "dexterity": 2
+        }
     },
     "human": {
-        "name": "Human"
+        "name": "Human",
+        "abilityScoreIncrease": {
+            "strength": 1,
+            "dexterity": 1,
+            "constitution": 1,
+            "intelligence": 1,
+            "wisdom": 1,
+            "charisma": 1
+        }
+    },
+    "dragonborn": {
+        "name": "Dragonborn",
+        "subraces": {
+            "black": {
+                "name": "Black Dragonborn",
+                "abilityScoreIncrease": {}
+            },
+            "blue": {
+                "name": "Blue Dragonborn",
+                "abilityScoreIncrease": {}
+            },
+            "brass": {
+                "name": "Brass Dragonborn",
+                "abilityScoreIncrease": {}
+            },
+            "bronze": {
+                "name": "Bronze Dragonborn",
+                "abilityScoreIncrease": {}
+            },
+            "copper": {
+                "name": "Copper Dragonborn",
+                "abilityScoreIncrease": {}
+            },
+            "gold": {
+                "name": "Gold Dragonborn",
+                "abilityScoreIncrease": {}
+            },
+            "green": {
+                "name": "Green Dragonborn",
+                "abilityScoreIncrease": {}
+            },
+            "red": {
+                "name": "Red Dragonborn",
+                "abilityScoreIncrease": {}
+            },
+            "silver": {
+                "name": "Silver Dragonborn",
+                "abilityScoreIncrease": {}
+            },
+            "white": {
+                "name": "White Dragonborn",
+                "abilityScoreIncrease": {}
+            }
+        },
+        "abilityScoreIncrease": {
+            "strength": 2,
+            "charisma": 1
+        }
+    },
+    "gnome": {
+        "name": "Gnome",
+        "subraces": {
+            "forestGnome": {
+                "name": "Forest Gnome",
+                "abilityScoreIncrease": {
+                    "dexterity": 1
+                }
+            },
+            "rockGnome": {
+                "name": "Rock Gnome",
+                "abilityScoreIncrease": {
+                    "constitution": 1
+                }
+            }
+        },
+        "abilityScoreIncrease": {
+            "intelligence": 2
+        }
+    },
+    "half-elf": {
+        "name": "Half-Elf",
+        "abilityScoreIncrease": {
+            "charisma": 2
+        },
+        "abilityScoreChoice": {
+            "name": "abilityScoreChoiceFromRace",
+            "description": "Choose 2 ability scores to increase by 1",
+            "count": 2,
+            "type": "ability",
+            "from": {
+                "options": [
+                    "strength",
+                    "dexterity",
+                    "constitution",
+                    "intelligence",
+                    "wisdom"
+                ]
+            }
+        }
+    },
+    "half-orc": {
+        "name": "Half-Orc"
     },
     "tiefling": {
         "name": "Tiefling"
