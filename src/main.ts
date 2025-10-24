@@ -154,7 +154,6 @@ async function main() {
     }
 
     function handleBackgroundChange() {
-        console.log("background change");
         equipmentChoiceContainer.innerHTML = '';
 
         const backgroundData = backgrounds[backgroundSelect.value];
