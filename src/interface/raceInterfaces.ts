@@ -1,25 +1,14 @@
 import { Choice } from './choiceInterface';
 export interface Race {
     name: string;
-    subraces: Subraces;
-    abilityScoreIncrease: {[ability: string]: number};
-    abilityScoreChoice?:Choice;
+    subraces?: Subraces;
+    abilityScore: {
+        fixed?: {[ability: string]: number};
+        choice?: Choice;
+    };
     speed?: number;
     size?: string;
     languages?: string[];
-    // size: string;
-    // speed: number;
-    // languages: string[];
-}
-
-export interface AbilityBonus {
-    AbilityScore: string;
-    bonus: number;
-    source: string;
-}
-
-export interface AbilityBonusMap {
-    [ability: string]: AbilityBonus[];
 }
 
 export interface Races {
@@ -28,8 +17,10 @@ export interface Races {
 
 export interface SubraceData {
     name: string;
-    abilityScoreIncrease: {[ability: string]: number};
-    abilityScoreChoice?: Choice;
+    abilityScore: {
+        fixed?: { [ability: string]: number };
+        choice?: Choice;
+    };
 }
 
 export interface Subraces {

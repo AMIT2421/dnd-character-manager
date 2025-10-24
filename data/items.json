@@ -1,0 +1,44 @@
+{
+    "weapons": {
+        "simpleMeleeWeapons": {
+            "club": {
+                "name": "Club",
+                "cost": "1 sp",
+                "weight": 2,
+                "properties": [
+                    "light"
+                ],
+                "damage": {
+                    "dice": "1d4",
+                    "type": "bludgeoning"
+                }
+            },
+            "dagger": {
+                "name": "Dagger",
+                "cost": "2 gp",
+                "weight": 1,
+                "properties": [
+                    "finesse",
+                    "light",
+                    "thrown"
+                ],
+                "damage": {
+                    "dice": "1d4",
+                    "type": "piercing"
+                },
+                "range": {
+                    "normal": 20,
+                    "long": 60
+                }
+            }
+        }
+    },
+    "adventuringGear": {
+        "prayerBook": {
+            "name": "Prayer Book"
+        },
+        "prayerWheel": {
+            "name": "Prayer Wheel"
+        }
+    }
+}

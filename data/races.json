@@ -4,19 +4,25 @@
         "subraces": {
             "hillDwarf": {
                 "name": "Hill Dwarf",
-                "abilityScoreIncrease": {
-                    "wisdom": 1
+                "abilityScore": {
+                    "fixed": {
+                        "wisdom": 1
+                    }
                 }
             },
             "mountainDwarf": {
                 "name": "Mountain Dwarf",
-                "abilityScoreIncrease": {
-                    "strength": 2
+                "abilityScore": {
+                    "fixed": {
+                        "strength": 2
+                    }
                 }
             }
         },
-        "abilityScoreIncrease": {
-            "constitution": 2
+        "abilityScore": {
+            "fixed": {
+                "constitution": 2
+            }
         }
     },
     "elf": {
@@ -24,56 +30,72 @@
         "subraces": {
             "highElf": {
                 "name": "High Elf",
-                "abilityScoreIncrease": {
-                    "intelligence": 1
+                "abilityScore": {
+                    "fixed": {
+                        "intelligence": 1
+                    }
                 }
             },
             "woodElf": {
                 "name": "Wood Elf",
-                "abilityScoreIncrease": {
-                    "wisdom": 1
+                "abilityScore": {
+                    "fixed": {
+                        "wisdom": 1
+                    }
                 }
             },
             "darkElf": {
                 "name": "Dark Elf (Drow)",
-                "abilityScoreIncrease": {
-                    "charisma": 1
+                "abilityScore": {
+                    "fixed": {
+                        "charisma": 1
+                    }
                 }
             }
         },
-        "abilityScoreIncrease": {
-            "dexterity": 2
+        "abilityScore": {
+            "fixed": {
+                "dexterity": 2
+            }
         }
     },
     "halfling": {
         "name": "Halfling",
         "subraces": {
-            "ligthfoot": {
+            "lightfoot": {
                 "name": "Lightfoot Halfling",
-                "abilityScoreIncrease": {
-                    "charisma": 1
+                "abilityScore": {
+                    "fixed": {
+                        "charisma": 1
+                    }
                 }
             },
             "stout": {
                 "name": "Stout Halfling",
-                "abilityScoreIncrease": {
-                    "constitution": 1
+                "abilityScore": {
+                    "fixed": {
+                        "constitution": 1
+                    }
                 }
             }
         },
-        "abilityScoreIncrease": {
-            "dexterity": 2
+        "abilityScore": {
+            "fixed": {
+                "dexterity": 2
+            }
         }
     },
     "human": {
         "name": "Human",
-        "abilityScoreIncrease": {
-            "strength": 1,
-            "dexterity": 1,
-            "constitution": 1,
-            "intelligence": 1,
-            "wisdom": 1,
-            "charisma": 1
+        "abilityScore": {
+            "fixed": {
+                "strength": 1,
+                "dexterity": 1,
+                "constitution": 1,
+                "intelligence": 1,
+                "wisdom": 1,
+                "charisma": 1
+            }
         }
     },
     "dragonborn": {
@@ -81,48 +103,70 @@
         "subraces": {
             "black": {
                 "name": "Black Dragonborn",
-                "abilityScoreIncrease": {}
+                "abilityScore": {
+                    "fixed": {}
+                }
             },
             "blue": {
                 "name": "Blue Dragonborn",
-                "abilityScoreIncrease": {}
+                "abilityScore": {
+                    "fixed": {}
+                }
             },
             "brass": {
                 "name": "Brass Dragonborn",
-                "abilityScoreIncrease": {}
+                "abilityScore": {
+                    "fixed": {}
+                }
             },
             "bronze": {
                 "name": "Bronze Dragonborn",
-                "abilityScoreIncrease": {}
+                "abilityScore": {
+                    "fixed": {}
+                }
             },
             "copper": {
                 "name": "Copper Dragonborn",
-                "abilityScoreIncrease": {}
+                "abilityScore": {
+                    "fixed": {}
+                }
             },
             "gold": {
                 "name": "Gold Dragonborn",
-                "abilityScoreIncrease": {}
+                "abilityScore": {
+                    "fixed": {}
+                }
             },
             "green": {
                 "name": "Green Dragonborn",
-                "abilityScoreIncrease": {}
+                "abilityScore": {
+                    "fixed": {}
+                }
             },
             "red": {
                 "name": "Red Dragonborn",
-                "abilityScoreIncrease": {}
+                "abilityScore": {
+                    "fixed": {}
+                }
             },
             "silver": {
                 "name": "Silver Dragonborn",
-                "abilityScoreIncrease": {}
+                "abilityScore": {
+                    "fixed": {}
+                }
             },
             "white": {
                 "name": "White Dragonborn",
-                "abilityScoreIncrease": {}
+                "abilityScore": {
+                    "fixed": {}
+                }
             }
         },
-        "abilityScoreIncrease": {
-            "strength": 2,
-            "charisma": 1
+        "abilityScore": {
+            "fixed": {
+                "strength": 2,
+                "charisma": 1
+            }
         }
     },
     "gnome": {
@@ -130,46 +174,67 @@
         "subraces": {
             "forestGnome": {
                 "name": "Forest Gnome",
-                "abilityScoreIncrease": {
-                    "dexterity": 1
+                "abilityScore": {
+                    "fixed": {
+                        "dexterity": 1
+                    }
                 }
             },
             "rockGnome": {
                 "name": "Rock Gnome",
-                "abilityScoreIncrease": {
-                    "constitution": 1
+                "abilityScore": {
+                    "fixed": {
+                        "constitution": 1
+                    }
                 }
             }
         },
-        "abilityScoreIncrease": {
-            "intelligence": 2
+        "abilityScore": {
+            "fixed": {
+                "intelligence": 2
+            }
         }
     },
     "half-elf": {
         "name": "Half-Elf",
-        "abilityScoreIncrease": {
-            "charisma": 2
-        },
-        "abilityScoreChoice": {
-            "name": "abilityScoreChoiceFromRace",
-            "description": "Choose 2 ability scores to increase by 1",
-            "count": 2,
-            "type": "ability",
-            "from": {
-                "options": [
-                    "strength",
-                    "dexterity",
-                    "constitution",
-                    "intelligence",
-                    "wisdom"
-                ]
+        "abilityScore": {
+            "fixed": {
+                "charisma": 2
+            },
+            "choice": {
+                "name": "abilityScoreChoiceFromRace",
+                "description": "Choose 2 different ability scores to increase by 1 (other than Charisma)",
+                "count": 2,
+                "type": "ability",
+                "from": {
+                    "type": "list",
+                    "options": [
+                        "strength",
+                        "dexterity",
+                        "constitution",
+                        "intelligence",
+                        "wisdom"
+                    ]
+                }
             }
         }
     },
     "half-orc": {
-        "name": "Half-Orc"
+        "name": "Half-Orc",
+        "abilityScore": {
+            "fixed": {
+                "strength": 2,
+                "constitution": 1
+            }
+        }
     },
     "tiefling": {
-        "name": "Tiefling"
+        "name": "Tiefling",
+        "abilityScore": {
+            "fixed": {
+                "intelligence": 1,
+                "charisma": 2
+            }
+        }
     }
 }

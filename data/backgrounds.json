@@ -1,21 +1,89 @@
 {
     "acolyte": {
         "name": "Acolyte",
-        "ability_scores": ["INT", "WIS", "CHA"],
-        "skillProficiencies": ["Insight", "Religion"]
-    },
-    "artisan": {
-        "name": "Artisan",
-        "ability_scores": ["STR", "DEX", "INT"],
-        "skillProficiencies": ["Insight", "Persuasion"]
+        "skillProficiencies": ["insight", "religion"],
+        "languages": {
+            "name": "languageChoice",
+            "description": "Choose 2 languages of your choice",
+            "count": 2,
+            "type": "language",
+            "from": {
+                "type": "all",
+                "options": "all"
+            }
+        },
+        "equipment": {
+            "fixed": [
+                {"itemId": "holySymbol"}
+            ],
+            "choices": [
+                {
+                    "name": "",
+                    "count": 1,
+                    "type": "equipment",
+                    "from": {
+                        "type": "items",
+                        "options": [
+                            {"itemId": "adventuringGear.prayerBook"},
+                            {"itemId": "adventuringGear.prayerWheel"}
+                        ]
+                    }
+                }
+            ]
+        }
     },
     "charlatan": {
         "name": "Charlatan",
-        "ability_scores": ["DEX", "CON", "CHA"],
-        "skillProficiencies": ["Deception", "Sleight of Hand"]
+        "skillProficiencies": ["deception", "sleightOfHand"],
+        "toolProficiencies": {
+            "fixed": ["disguiseKit", "forgeryKit"]
+        }
     },
     "criminal": {
         "name": "Criminal",
-        "skillProficiencies": ["Deception", "Stealth"]
+        "skillProficiencies": ["deception", "stealth"],
+        "toolProficiencies": {
+            "fixed": ["thievesTools"],
+            "choice": [
+                {
+                    "count": 1,
+                    "type": "equipment",
+                    "from": {
+                        "type": "set",
+                        "options": "equipment.json#gamingSet"
+                    }
+                }
+            ]
+        },
+        "equipment": {
+            "choices": [
+                {
+                    "name": "test",
+                    "count": 1,
+                    "type": "equipment",
+                    "from": {
+                        "type": "list",
+                        "options": [
+                            "1",
+                            "2",
+                            "3"
+                        ]
+                    }
+                },
+                {
+                    "name": "test",
+                    "count": 1,
+                    "type": "equipment",
+                    "from": {
+                        "type": "list",
+                        "options": [
+                            "1",
+                            "2",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        }
     }
 }

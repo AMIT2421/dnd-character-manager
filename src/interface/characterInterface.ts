@@ -4,6 +4,10 @@ export interface Character {
     subrace?: string;
     classes: characterClass[];
     abilityScores: AbilityScore[];
+    abilityScoreIncreases?: {
+        race?: AbilityScore[];
+        background?: AbilityScore[];
+    }
 }
 
 export interface AbilityScore {

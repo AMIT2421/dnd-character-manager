@@ -1,6 +1,6 @@
 export interface Class {
     name: string;
-    subclasses: Subclass[];
+    subclasses?: Subclass[];
     //hitDie: number;
     //proficiencies: ClassProficiencies;
 }

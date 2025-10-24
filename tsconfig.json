@@ -1,23 +1,19 @@
 {
   "compilerOptions": {
-    /* File structure */
     "rootDir": "./src",
     "outDir": "./dist",
 
-    /* Output format for browsers */
-    "target": "es6",
-    "module": "es6",
-    "moduleResolution": "bundler",
+    "target": "es2020",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,  // allows import of JSON
+    "esModuleInterop": true,
     "lib": ["dom", "esnext"],
     "types": [],
 
-    /* Debugging */
     "sourceMap": true,
 
-    /* Strict type checking */
     "strict": true,
-
-    /* Clean-up */
     "skipLibCheck": true
   },
   "include": ["src/**/*"]
